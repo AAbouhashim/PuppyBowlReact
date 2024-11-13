@@ -1,0 +1,78 @@
+body{
+  background-image: url("./public/grass.avif");
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+  outline: 5px solid white;
+  background-color: #013369;
+  padding: 3px;
+  margin-top: 2px;
+}
+
+h2{
+  text-align: center;
+  background-color: #013369;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-right: 30px;
+  margin-left: 30px;
+  outline: 3px solid white;
+}
+
+h3{
+  text-align: center;
+  background-color: #013369;
+  color: white;
+  padding: 3px;
+  margin-bottom: 0;
+  margin-right: 100px;
+  margin-left: 100px;
+  outline: 2px solid white;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+li{
+  background-color: #013369;
+  color: white;
+  padding-bottom: 10px;
+}
+
+img{
+  height: 200px;
+  outline: 5px solid white;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navBar > li{
+  padding: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+a:hover{
+  color: red;
+}
